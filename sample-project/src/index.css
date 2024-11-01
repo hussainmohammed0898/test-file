@@ -1,0 +1,144 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+}
+.side-width{
+  width: 30%;
+  height: 100vh;
+  background-color: rgb(245, 138, 67);
+}
+.content-width{
+  background-color: #f2f2f2;
+  width: 70%;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-right: 6rem;
+}
+.card{
+  width: 100%;
+  background-color: rgb(255 255 255);
+  border: 1px solid #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.card-p{
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.card-content h2{
+  font-size: 30px;
+}
+.card-content p{
+  font-size: 14px;
+}
+.card-sp{
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.btn-card{
+  background-color: rgb(242, 242, 242);
+  padding: 22px;
+  border-radius: 8px;
+  border: none;
+  color: #2e5db0;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+ a{
+  text-decoration: none;
+
+}
+.btn-svg{
+  margin-left: 2px;
+  width: 10%;
+  margin-bottom: 1px; 
+}
+.content-span{
+  cursor: pointer;
+  color: #2e5db0;
+  font-weight: 700;
+  font-size: 14px;
+}
+.question-section{
+  border-top: 1px solid black;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-second{
+  width: 100%;
+  background-color: rgb(255 255 255);
+  border: 1px solid #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.question-p{
+  font-size: 12px;
+  font-weight: 600;
+  color: #77787c;
+  margin-top: 10px;
+}
+.question-bold-p{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+.question-img{
+  margin-top: 10px;
+  cursor: pointer;
+}
+.option-section{
+  display: flex;
+  gap: 8px;
+  margin:10px;
+  
+}
+
+.icon-add{
+  cursor: pointer;
+  background-color: transparent;
+  width: 15px;
+}
+.icon-add:hover{
+ color: #123878;
+}
+.sub-section{
+  background-color: #eff5fb;
+  color: blue;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 310px;
+}
+.third-section{
+  display: flex;
+  justify-content: space-between;
+
+}
+.question-add{
+  background-color: white;
+  padding: 12px;
+  color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
